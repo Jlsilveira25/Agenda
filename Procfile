@@ -1,2 +1,3 @@
-web: gunicorn agenda.wsgi --log-file -
-web: gunicorn wsgi:app
+web: gunicorn agenda.wsgi:application --log-file - --log-level debug
+python manage.py collectstatic --noinput
+manage.py migrate
