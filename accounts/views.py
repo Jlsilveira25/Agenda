@@ -93,5 +93,5 @@ def dashboard(request):
         return render(request, 'accounts/dashboard.html', { 'form': form })
     
     form.save()
-    messages.success(request, f'Contato "{request.POST.get("nome")} salvo com sucesso! ')
+    messages.success(request, f'Contato {request.POST.get("nome")} salvo com sucesso! ')
     return redirect('dashboard')
