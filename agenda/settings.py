@@ -27,7 +27,7 @@ SECRET_KEY = 'bjlu3u7&&p1)s5hr1h)22nn(3_%4ov%%-bcuyut-)99^wlo%$r'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://infinite-forest-55760.herokuapp.com', '127.0.0.1']
+ALLOWED_HOSTS = ['agendajlsilveira.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
